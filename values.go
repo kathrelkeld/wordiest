@@ -1,0 +1,30 @@
+package main
+
+var defaultValues = map[byte]int{
+	'a': 1,
+	'b': 4,
+	'c': 3,
+	'd': 2,
+	'e': 1,
+	'f': 4,
+	'g': 3,
+	'h': 3,
+	'i': 1,
+	'j': 10,
+	'k': 5,
+	'l': 2,
+	'm': 4,
+	'n': 2,
+	'o': 1,
+	'p': 3,
+	'q': 10,
+	'r': 1,
+	's': 1,
+	't': 1,
+	'u': 2,
+	'v': 6,
+	'w': 4,
+	'x': 10, // TODO: Guessing! Haven't seen this in a Wordiest game yet.
+	'y': 4,
+	'z': 10,
+}
