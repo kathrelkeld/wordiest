@@ -35,9 +35,9 @@ func Parse(line []byte) ([]Tile, error) {
 		}
 		mul := int(mulCh - '0')
 		switch field[2] {
-		case 'l':
+		case 'l', 'L':
 			tile.Value *= mul
-		case 'w':
+		case 'w', 'W':
 			tile.WordMul = mul
 		default:
 			return nil, badTileErr

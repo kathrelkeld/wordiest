@@ -42,7 +42,7 @@ func (w Word) Value() int {
 	return v * mul
 }
 
-func Solve(tiles []Tile) *Solution {
+func SolveNaive(tiles []Tile) *Solution {
 	// Use a very simplistic heuristic instead of finding the absolute best solution:
 	// * Find (one of) the highest-value words we can make using given letters
 	// * Remove those letters from the set, and repeat

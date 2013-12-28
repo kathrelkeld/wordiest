@@ -39,8 +39,8 @@ func main() {
 		if err != nil {
 			fatal(err)
 		}
-		best := Solve(tiles)
-		fmt.Println(best)
+		bestNaive := SolveNaive(tiles)
+		fmt.Println("naive:", bestNaive)
 	}
 	if err := argf.Error(); err != nil {
 		fatal(err)
